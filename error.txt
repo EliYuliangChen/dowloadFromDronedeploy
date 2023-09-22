@@ -1,0 +1,26 @@
+https://www.dronedeploy.com/app2/sites/64d572fff15fa62477a08495/maps/64d57300f15fa62477
+发生错误Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@data-e2e-id="navbarMapBtn"]"}
+  (Session info: chrome=117.0.5938.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF70ED77892+54818]
+	(No symbol) [0x00007FF70ECE6AC2]
+	(No symbol) [0x00007FF70EB9DA3B]
+	(No symbol) [0x00007FF70EBDE4FC]
+	(No symbol) [0x00007FF70EBDE67C]
+	(No symbol) [0x00007FF70EC19627]
+	(No symbol) [0x00007FF70EBFEAEF]
+	(No symbol) [0x00007FF70EC175A2]
+	(No symbol) [0x00007FF70EBFE883]
+	(No symbol) [0x00007FF70EBD3691]
+	(No symbol) [0x00007FF70EBD48D4]
+	GetHandleVerifier [0x00007FF70F0DB992+3610402]
+	GetHandleVerifier [0x00007FF70F131860+3962352]
+	GetHandleVerifier [0x00007FF70F129D4F+3930847]
+	GetHandleVerifier [0x00007FF70EE13646+693206]
+	(No symbol) [0x00007FF70ECF1628]
+	(No symbol) [0x00007FF70ECED934]
+	(No symbol) [0x00007FF70ECEDA62]
+	(No symbol) [0x00007FF70ECDE113]
+	BaseThreadInitThunk [0x00007FFAC52C257D+29]
+	RtlUserThreadStart [0x00007FFAC61CAA68+40]
+
