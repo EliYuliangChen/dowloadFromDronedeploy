@@ -6,13 +6,13 @@ from selenium.webdriver.chrome.service import Service
 import time
 import os
 
-USER_GOOGLE_ACCOUNT_ADDRESS = "--user-data-dir=C:\\Users\\cheny\\AppData\\Local\\Google\\Chrome\\User Data"
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1JlVBZylRxMccS0B2qVsjoWCCUw8ToVcv/edit#gid=15064871"
-LINK_TXT = "C:\\Users\\cheny\\Desktop\\dowloadFromDronedeploy\\url.txt"
-TEST_TXT = "C:\\Users\\cheny\\Desktop\\dowloadFromDronedeploy\\testurl.txt"
-ERROR_TXT = "C:\\Users\\cheny\\Desktop\\dowloadFromDronedeploy\\error.txt"
-PROCESSED_LINK_TXT = "C:\\Users\\cheny\\Desktop\\dowloadFromDronedeploy\\processedLink.txt"
-LAST_PROCESSED_LINE_TXT = "C:\\Users\\cheny\\Desktop\\dowloadFromDronedeploy\\lastProcessedLine.txt"
+USER_GOOGLE_ACCOUNT_ADDRESS = "--user-data-dir=YOUR_CHROME_USER_DATA_PATH"
+SHEET_URL = "https://docs.google.com/spreadsheets/YOUR_SPREADSHEET_ID"
+LINK_TXT = "YOUR_PATH\\url.txt"
+TEST_TXT = "YOUR_PATH\\testurl.txt"
+ERROR_TXT = "YOUR_PATH\\error.txt"
+PROCESSED_LINK_TXT = "YOUR_PATH\\processedLink.txt"
+LAST_PROCESSED_LINE_TXT = "YOUR_PATH\\lastProcessedLine.txt"
 LAST_PROCESSED_LINE = 0
 
 def downloadTIFF(url):
@@ -104,7 +104,7 @@ def downloadTIFF(url):
     try:
         #输入新邮箱地址
         email_input = driver.find_element(By.XPATH, '//*[@data-e2e-id="emailInput"]')
-        email_input.send_keys("thresh.chen@gmail.com")
+        email_input.send_keys("your_email@example.com")
         email_input.send_keys(Keys.ENTER)
     except Exception as e:
         log_error(f"{url}\n发生错误:无法添加新邮箱地址\n{str(e)}")
